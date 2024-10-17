@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+env:
+  github.actor: elecou50
+
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
